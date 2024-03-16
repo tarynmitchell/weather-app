@@ -1,5 +1,10 @@
 body {
-  background-color: #f9f7fe;
+  background: radial-gradient(
+    circle at 1.8% 4.8%,
+    rgb(17, 23, 58) 0%,
+    rgb(58, 85, 148) 90%
+  );
+  min-height: 100vh;
   font-family: "Roboto", sans-serif;
 }
 
@@ -31,7 +36,7 @@ header {
 }
 
 .search-form-button {
-  background: #885df1;
+  background: #18294f;
   padding: 15px 30px;
   border: none;
   font-size: 16px;
@@ -63,7 +68,7 @@ main {
 }
 
 .weather-app-details strong {
-  color: #f65282;
+  color: #18294f;
 }
 
 .weather-app-temperature-container {
